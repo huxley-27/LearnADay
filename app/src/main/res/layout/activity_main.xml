@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@drawable/tab_menu_bg">
+
+        <TextView
+            android:id="@+id/tab_menu_book"
+            style="@style/TabMenuButton"
+            android:drawableTop="@drawable/tab_book_selector"
+            android:text="@string/menu_book" />
+
+        <TextView
+            android:id="@+id/tab_menu_exam"
+            style="@style/TabMenuButton"
+            android:drawableTop="@drawable/tab_exam_selector"
+            android:text="@string/menu_exam" />
+
+        <TextView
+            android:id="@+id/tab_menu_message"
+            style="@style/TabMenuButton"
+            android:drawableTop="@drawable/tab_message_selector"
+            android:text="@string/menu_message" />
+
+        <TextView
+            android:id="@+id/tab_menu_mine"
+            style="@style/TabMenuButton"
+            android:drawableTop="@drawable/tab_mine_selector"
+            android:text="@string/menu_mine" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">LearnADay</string>
+
+    <string name="menu_book">教材</string>
+    <string name="menu_exam">真题</string>
+    <string name="menu_message">消息</string>
+    <string name="menu_mine">我的</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>
